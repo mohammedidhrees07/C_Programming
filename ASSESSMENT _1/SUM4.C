@@ -1,10 +1,10 @@
-//sum1
+//sum 4
 #include<stdio.h>
 int main()
 {
     int a;
     printf("Enter a number: ");
     scanf("%d",&a);
-    int b=a+2;
-    printf("%d",b);
+    float b=a/6;
+    printf("%.2f",b);
 }
